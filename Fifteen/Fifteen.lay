@@ -1,0 +1,11 @@
+LAYOUT(FifteenLayout, 424, 308)
+	ITEM(GameArea, gamearea, HSizePosZ(4, 124).VSizePosZ(4, 8))
+	ITEM(Button, help, SetLabel(t_("Pomoc")).Tip(t_("Pokaż okienko z zasadami gry")).RightPosZ(12, 100).TopPosZ(60, 16))
+	ITEM(Button, solve, SetLabel(t_("Pokaż rozwiązanie")).Tip(t_("Wyświetl rozwiązanie wylosowanej planszy")).RightPosZ(12, 100).TopPosZ(36, 16))
+	ITEM(Button, newgame, SetLabel(t_("Nowa gra")).Tip(t_("Rozpocznij od nowa")).RightPosZ(12, 100).TopPosZ(12, 16))
+	ITEM(EditInt, timeresult, SetEditable(false).RightPosZ(12, 48).TopPosZ(104, 15))
+	ITEM(Label, dv___5, SetLabel(t_("Czas:")).RightPosZ(80, 32).TopPosZ(104, 15))
+	ITEM(EditInt, result, SetEditable(false).RightPosZ(12, 48).TopPosZ(124, 15))
+	ITEM(Label, dv___7, SetLabel(t_("Ruchy:")).RightPosZ(80, 32).TopPosZ(124, 15))
+END_LAYOUT
+

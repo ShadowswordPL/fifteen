@@ -1,0 +1,5 @@
+#ifndef _Fifteen_icpp_init_stub
+#define _Fifteen_icpp_init_stub
+#include "CtrlLib/init"
+#include "Painter/init"
+#endif

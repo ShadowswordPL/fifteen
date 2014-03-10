@@ -1,0 +1,16 @@
+optimize_speed;
+
+uses
+	CtrlLib,
+	Painter;
+
+file
+	GameArea.cpp,
+	Fifteen.h,
+	Set.cpp,
+	main.cpp,
+	Fifteen.lay;
+
+mainconfig
+	"" = "GUI SSE2";
+
